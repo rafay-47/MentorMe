@@ -1,0 +1,31 @@
+{
+  "project_info": {
+    "project_number": "378819184531",
+    "firebase_url": "https://mentorme-a52a7-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "mentorme-a52a7",
+    "storage_bucket": "mentorme-a52a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378819184531:android:71f683ae4a9d3968bf0a66",
+        "android_client_info": {
+          "package_name": "com.AbdulRafay.i212582"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQ7tUvZKNnhS3Xcvq0s_-mro6wCixYyTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1",
+  "databaseURL" : "https://mentorme-a52a7-default-rtdb.asia-southeast1.firebasedatabase.app"
+}

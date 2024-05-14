@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- circle_with_outline_and_small_circle.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- Background circle with outline -->
+<item>
+    <shape android:shape="oval">
+        <solid android:color="#dceeee" /> <!-- Change color as per your requirement -->
+        <stroke
+            android:width="4dp"
+        android:color="#ffc809" />
+    </shape>
+</item>
+<item
+    android:height="24dp"
+    android:width="24dp"
+    android:drawable="@drawable/online_circle"
+    android:left="48dp"
+    android:bottom="48dp"/>
+</layer-list>
+

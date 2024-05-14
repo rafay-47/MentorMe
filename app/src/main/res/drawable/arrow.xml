@@ -1,0 +1,20 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="34dp"
+    android:height="14dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Left side of the triangle -->
+    <path
+        android:pathData="M6,4L6,4"
+        android:strokeWidth="2"
+        android:strokeColor="#dadada"
+        android:fillColor="@android:color/transparent"/>
+
+    <!-- Right side of the triangle -->
+    <path
+        android:pathData="M18,4L12,20 6,4"
+        android:strokeWidth="2"
+        android:strokeColor="#dadada"
+        android:fillColor="@android:color/transparent"/>
+</vector>

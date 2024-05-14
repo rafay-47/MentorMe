@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#def8f7"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-40dp"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/down_rounded_corner_bg"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="92dp"
+                android:backgroundTint="@color/rounded_corner_bg_color"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/baseline_arrow_back_24" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profilePic"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="116dp"
+                app:layout_constraintStart_toEndOf="@id/textView72"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="100dp"
+                android:text="Book your Session"
+                android:textColor="@color/link_color"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@id/imageButton7"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:text="John Cooper"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintHorizontal_bias="0.142"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textView72"
+                app:layout_constraintVertical_bias="0.05" />
+
+            <View
+                android:id="@+id/v"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="12dp"
+                android:background="#7ed9d2"
+                app:layout_constraintStart_toStartOf="@id/textView69"
+                app:layout_constraintTop_toBottomOf="@id/textView69" />
+
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginStart="-20dp"
+                android:text="$1500/Session"
+                android:textColor="#ffc809"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@id/v"
+                app:layout_constraintTop_toBottomOf="@id/v"
+                app:layout_constraintVertical_bias="0.05" />
+
+
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginEnd="50dp"
+                app:layout_constraintStart_toStartOf="@id/name"
+                app:layout_constraintTop_toBottomOf="@id/name"
+                app:srcCompat="@drawable/baseline_star_24" />
+
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="16dp"
+                android:text="4.8"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@id/imageView8"
+                app:layout_constraintTop_toBottomOf="@id/name" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/v">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="60dp"
+                    android:background="@drawable/message_circle_svgrepo_com"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/telephone_svgrepo_com"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/vc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/film_camera_svgrepo_com"/>
+            </LinearLayout>
+
+            <View
+                android:id="@+id/v2"
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                app:layout_constraintStart_toStartOf="@id/price"
+                app:layout_constraintTop_toBottomOf="@id/price" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <CalendarView
+        android:id="@+id/cal"
+        android:layout_width="401dp"
+        android:layout_height="324dp"
+        android:weekDayTextAppearance="@color/link_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cv" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Available Time Slots"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cal"
+        app:layout_constraintVertical_bias="0.05" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="10.00 AM"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:background="#dceeee"
+        android:gravity="center_vertical|center_horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView1"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <TextView
+    android:id="@+id/textView3"
+    android:layout_width="wrap_content"
+    android:layout_height="58dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="20dp"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    android:text="11.00 AM"
+    android:textColor="#ffffff"
+    android:textSize="20sp"
+    android:background="#0c8fad"
+    android:gravity="center_vertical|center_horizontal"
+    app:layout_constraintStart_toEndOf="@id/textView2"
+    app:layout_constraintTop_toBottomOf="@id/textView1"
+    app:layout_constraintVertical_bias="0.05" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="12.00 AM"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:background="#dceeee"
+        android:gravity="center_vertical|center_horizontal"
+        app:layout_constraintStart_toEndOf="@id/textView3"
+        app:layout_constraintTop_toBottomOf="@id/textView1"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <Button
+        android:id="@+id/bookAppointment"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginTop="14dp"
+        android:backgroundTint="#167078"
+        android:gravity="center_horizontal|center_vertical"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:text="Book an Appointment"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView3" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

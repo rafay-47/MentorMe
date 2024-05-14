@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#def8f7"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-40dp"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/down_rounded_corner_bg"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="72dp"
+            android:backgroundTint="@color/rounded_corner_bg_color"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/baseline_arrow_back_24" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profilePic"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="116dp"
+            android:backgroundTint="#7ed8d1"
+            app:layout_constraintStart_toEndOf="@id/textView72"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/textView72"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hi, I'm"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0.142"
+            app:layout_constraintStart_toStartOf="@id/imageButton7"
+            app:layout_constraintTop_toBottomOf="@id/imageButton7"
+            app:layout_constraintVertical_bias="0.099" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="John Cooper"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0.142"
+            app:layout_constraintStart_toStartOf="@id/textView72"
+            app:layout_constraintTop_toBottomOf="@id/textView72"
+            app:layout_constraintVertical_bias="0.05" />
+
+        <View
+            android:id="@+id/v"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="12dp"
+            android:background="#7ed9d2"
+            app:layout_constraintStart_toStartOf="@id/name"
+            app:layout_constraintTop_toBottomOf="@id/name" />
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="UX dsigner at"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            app:layout_constraintHorizontal_bias="0.142"
+            app:layout_constraintStart_toStartOf="@id/v"
+            app:layout_constraintTop_toBottomOf="@id/v"
+            app:layout_constraintVertical_bias="0.05" />
+
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/v"
+            app:srcCompat="@drawable/baseline_star_24" />
+
+        <TextView
+            android:id="@+id/textView69"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="16dp"
+            android:text="4.8"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/v" />
+
+        <View
+            android:id="@+id/v1"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="12dp"
+            android:background="#7ed9d2"
+            app:layout_constraintStart_toStartOf="@id/desc"
+            app:layout_constraintTop_toBottomOf="@id/desc" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="16dp"
+            android:text="About me"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            app:layout_constraintHorizontal_bias="0.142"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/v1" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="16dp"
+            android:lineSpacingExtra="8dp"
+            android:text="@string/john_des"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            app:layout_constraintHorizontal_bias="0.142"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView1" />
+
+        <View
+            android:id="@+id/v2"
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            app:layout_constraintStart_toStartOf="@id/textView2"
+            app:layout_constraintTop_toBottomOf="@id/textView2" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="26dp"
+        android:textStyle="bold"
+        android:text="My Expertise include"
+        android:textColor="@color/link_color"
+        android:textSize="17sp"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cv" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="26dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:textStyle="bold"
+        android:text="Career Advice"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:background="@drawable/expertise_bg"
+        android:textSize="13sp"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView3" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="26dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:textStyle="bold"
+        android:text="User Experience Design"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:background="@drawable/expertise_bg"
+        android:textSize="13sp"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toEndOf="@id/textView4"
+        app:layout_constraintTop_toBottomOf="@id/textView3" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="26dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:textStyle="bold"
+        android:text="Leadership"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:background="@drawable/expertise_bg"
+        android:textSize="13sp"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView4" />
+
+
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="26dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:textStyle="bold"
+        android:text="Prototyping"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:background="@drawable/expertise_bg"
+        android:textSize="13sp"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toEndOf="@id/textView6"
+        app:layout_constraintTop_toBottomOf="@id/textView5" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#ffc909"
+        android:text="Drop a review"
+        android:textAllCaps="false"
+        android:textColor="@color/link_color"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:drawableEnd="@drawable/outline_message_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView6" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="24dp"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:backgroundTint="#ffc909"
+        android:text="Join Community"
+        android:textAllCaps="false"
+        android:textColor="@color/link_color"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:drawableEnd="@drawable/baseline_group_24"
+        app:layout_constraintStart_toEndOf="@id/button"
+        app:layout_constraintTop_toBottomOf="@id/textView7" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginTop="14dp"
+        android:backgroundTint="#167078"
+        android:gravity="center_horizontal|center_vertical"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:text="Book a Session"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">i212582</string>
+    <string name="mentor">mentor</string>
+    <string name="me">me</string>
+    <string name="connect_ask_learn">connect. ask. learn.</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="password">Password</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="forgot_your_password">Forgot Your Password?</string>
+    <string name="don_t_have_an_account" >Don\'t have an account?  .</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="get_started">Get Started!</string>
+    <string name="name">Name</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="enter_contact_number">Enter Contact Number</string>
+    <string name="select_country">Select Country</string>
+    <string name="country">Country</string>
+    <string name="city">City</string>
+    <string name="password_must_be_8_characters_long">Password must be 8 characters long</string>
+    <string name="already_have_an_account">Already have an account? .</string>
+    <string name="verify_your_phone_number">Verify your phone number</string>
+    <string name="we_ve_have_sent_a_code_to">We\'ve have sent a code to</string>
+    <string name="_92_321_2242022">+92 321 2242022</string>
+    <string name="verify">Verify</string>
+    <string name="send_code_again">Send code again</string>
+    <string name="_00_20">00:20</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="_0">0</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="don_t_worry">Don’t worry! It happens. Please enter the email associated with your account.</string>
+    <string name="send">Send</string>
+    <string name="remember_your_password">Remember your password?</string>
+    <string name="please_type_a_">Please type a new password and re-enter the password. Type something you will remember!</string>
+    <string name="new_password">New Password</string>
+    <string name="enter_new_password">Enter New Password</string>
+    <string name="reset_password">Reset Password?</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="re_enter_password">Re-enter Password</string>
+    <string name="reset_password_">Reset Password</string>
+    <string name="don_t_want_to_reset_password">Don\'t want to reset password</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="chat">Chat</string>
+    <string name="profile">Profile</string>
+    <string name="hello">Hello,</string>
+    <string name="ali">Ali</string>
+    <string name="ready_for_mentorship_let_s_begin_the_journey">Ready for mentorship? Let’s begin the journey!</string>
+    <string name="all">All</string>
+    <string name="education">Education</string>
+    <string name="entrepreneurship">Entrepreneurship</string>
+    <string name="personal_growth">Personal Growth</string>
+    <string name="career">Career</string>
+    <string name="top_mentors_for_you">Top Mentors for you</string>
+    <string name="view_all">View All</string>
+    <string name="john_des">I am a passionate UX designer at Google with a focus on creating user-centric and intuitive interfaces. With 10 years of experience, I have had the opportunity to work on diverse projects that have shaped my understanding of design principles and user experience</string>
+    <string name="johncommend_him">John provided excellent Prototyping Techniques and insights. I highly recommend him!</string>
+    <string name="her_tips">Her tips were valuable. Would love to connect again.</string>
+
+    <string-array name="country_items">
+        <item>Select Country</item>
+        <item>Pakistan</item>
+        <item>Oman</item>
+    </string-array>
+
+    <string-array name="city_items">
+        <item>Select City</item>
+        <item>Islamabad</item>
+        <item>Rawalpindi</item>
+    </string-array>
+
+    <string-array name="filter_items">
+        <item>filter</item>
+        <item>abc</item>
+        <item>def</item>
+    </string-array>
+
+    <string-array name="status_items">
+        <item>Available</item>
+        <item>Not Available</item>
+        <item>Partially Available</item>
+    </string-array>
+
+</resources>
